@@ -1,5 +1,8 @@
 # Automatización Front-End
 
+[![Automatización Resiliente con Latencia Aleatoria](https://github.com/NelsonFlores1/Reto_practico_1-B/actions/workflows/test-pipeline.yml/badge.svg)](https://github.com/NelsonFlores1/Reto_practico_1-B/actions/workflows/test-pipeline.yml)
+
+
 Plantilla base para practicar automatización de front-end con despliegue local en Docker.
 
 ## Estructura

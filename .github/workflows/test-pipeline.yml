@@ -37,7 +37,7 @@ jobs:
           npx playwright test tests/registro-async.spec.js --repeat-each=3
 
       - name: 7. Subir reporte Playwright
-        if: always()
+        if: failure()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report

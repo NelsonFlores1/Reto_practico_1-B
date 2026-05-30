@@ -31,6 +31,6 @@ export class RegistroPage {
     }
 
     async verificarEstadoDelRegistro() {
-        await expect(this.cajaDeEstadoLocator).toHaveText("Estado: Usuario Creado Exitosamente", { timeout: 15_000 });
+        await expect(this.cajaDeEstadoLocator).toHaveText("Estado: Usuario Creado Exitosamente", { timeout: 5_000 }); // CAMBIAR A 10 SEGUNDOS
     }
 }
